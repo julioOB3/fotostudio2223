@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Slider</title>
+    <link rel="stylesheet" href="style-formulario.css">
+</head>
+<body>
+
+<!----------------------------------------------------ENCABEZADO----------------------------------------------------->
+    <header>
+        <div></div><img src="img formulario/logo.png" class="logo"></div>
+        <div>
+            <div class="aja">
+                <nav>
+                     <ul class="navegacion">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="estudio.html">Estudio</a></li>
+                        <li><a href="estudio.html">Galería</a></li>
+                        <li><a href="formulario.html">Servicios</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<!-----------------------------------------------AREAS AUDICIONALES-------------------------------------------------->
+<div class="form-container">
+    <h2>Complete los datos para su reservación</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Número de Teléfono:</label>
+            <input type="tel" id="phone" name="phone" pattern="\+502\s\d{4}-\d{4}" placeholder="+502 1234-5678" required>
+
+        </div>
+        <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="place">Lugar:</label>
+            <input type="text" id="place" name="place" required>
+        </div>
+        <div class="form-group">
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

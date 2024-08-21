@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+
+header{
+	position:fixed;
+    /*position:relative;*/
+    background-color: #f0abf5;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+	width: 100%;
+    margin-top: -39%;
+}
+
+/*------------------------------------------------------LOGO--------------------------------------------------------*/
+
+.logo {
+    width: 13%;
+    position: absolute;
+    left: 5%;
+    margin: 0;
+}
+
+/*--------------------------------------------VENTANAS DE NAVEGACION-------------------------------------------------*/
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin:0 auto;
+}
+
+
+nav{
+    position: absolute;
+    top:70px;
+   right:200px;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+
+nav a{
+    color: rgb(28, 17, 96);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none ;
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+
+
+/*-----------------------------------------------------FORMULARIO---------------------------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15rem;
+    margin-left: 0%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="date"] {
+    cursor: pointer;
+}
+
+.form-group input[type="submit"] {
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/*---------------------------------------------------FONDO DE PAGIAN-------------------------------------------------*/
+body {
+    background-image: url("img\ formulario/suiza.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+       }

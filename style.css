@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+
+header{
+	position:fixed;
+    /*position:relative;*/
+    background-color: #f0abf5;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+	width: 100%;
+}
+
+/*------------------------------------------------------LOGO--------------------------------------------------------*/
+
+.logo {
+    width: 13%;
+    position: absolute;
+    left: 5%;
+    margin: 0;
+}
+
+/*--------------------------------------------VENTANAS DE NAVEGACION-------------------------------------------------*/
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin:0 auto;
+}
+
+
+nav{
+    position: absolute;
+    top:10px;
+   right:200px;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+
+nav a{
+    color: rgb(28, 17, 96);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none ;
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+/*------------------------------------------------------CARRUSEL----------------------------------------------------*/
+main{
+    padding-top: 8.1rem;
+}
+
+
+.slider-frame {
+	width: 1000px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+	margin-top: 0%;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+img{
+
+	width: 30%;
+}
+
+/*------------------------------------------------------SERVICIOS---------------------------------------------------*/
+.iconosprincipalesdenoticias{
+    display: flex;
+}
+
+.iconosnoticias{
+    display: inline-block;
+	margin: 5%;
+    margin-left: 62%;
+}
+
+.iconosnoticias2{
+    display: inline-block;
+	margin: 5%;
+    margin-left:80%;
+}
+
+
+
+.servicios{
+	padding: 0;
+    margin: 2%;
+    line-height: 2;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-left: 40%;
+    color: aliceblue;
+}
+
+
+
+.cuadrado22{
+    display: flex;
+    margin-top: -2%;
+}
+
+.cuadrado1{
+	width: 400px;
+	height: 290px;
+	background-color:transparent;
+	margin:0%;
+	margin-left:15%;
+	border: 2px solid aqua; 
+    display: inline-block;
+}
+
+
+.div{
+	width: 30%;
+	text-align: justify;
+	display: inline;
+}
+
+
+.fotografias{
+	margin-left: 26%;
+    color: #fcfafa;
+}
+
+.videos101{
+	margin-left:30%;
+    color: #fcfafa;
+}
+
+
+
+.textos{
+	text-align: justify;
+}
+/*-------------------------------------------------------NOTICIAS---------------------------------------------------*/
+
+.ultimas-noticias{
+	margin: 5%;
+	text-align: center;
+    color: #fcfafa;
+}
+
+.noticia{
+	width: 600px;
+	height: 218px;
+
+	border: 3px  solid aliceblue; 
+	display: inline-block;
+	margin: 2%;
+}
+
+.contenedor-noticias{
+	display: flex;
+    transition: all .5s;
+}
+
+.contenedor-noticias:hover{
+    transform: scale(1.2);
+}
+
+video{
+    width:100%;
+}
+
+.fotonoticias{
+    text-align: center;
+    margin-top: -35%;
+    color: aliceblue;
+}
+
+/*----------------------------------------------------PIE DE PAGINA-------------------------------------------------*/
+footer{
+
+    width: 100%;
+    background-color: #080101;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+}
+
+
+.textofinal{
+    color: #fcfafa;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 40px;
+}
+
+
+
+.iconos{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 1%;
+}
+
+.contenedor-redes-sociales{
+	display: flex;
+    margin-left: 40%;
+}
+
+
+.redes1{
+    width: 100px;
+    right: 100px;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+
+.redes2{
+    width: 100px;
+    right: 100px;
+    margin-left: -10px;
+    margin-top: -7px;
+}
+
+
+.redes3{
+    width: 70px;
+    right: 70px;
+    margin-left: -15px;
+    margin-top: 1px;
+}
+/*----------------------------------------------------FONDO DE PAGIA------------------------------------------------*/
+
+
+body {
+    background-image: url("imagenes/suiza_principal2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
